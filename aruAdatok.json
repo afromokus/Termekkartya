@@ -1,0 +1,42 @@
+[
+	{
+		"id":1,
+		"nev":"Gree GWH12ACCXD-K6DNA1D Comfort Pro",
+		"ar":268000,
+		"keszlet":5,
+		"kepek":
+		{
+			"kep0":"gkep0.png",
+			"kep1":"gkep1.png",
+			"kep2":"gkep2.png",
+			"kep3":"gkep3.png"
+		},
+		"thumbnailek":
+		{
+			"thumbnail0":"gkepthumb0.png",
+			"thumbnail1":"gkepthumb1.png",
+			"thumbnail2":"gkepthumb2.png",
+			"thumbnail3":"gkepthumb3.png"
+		}
+	},
+	{
+		"id":2,
+		"nev":"LG W12TE DualCool Pro",
+		"ar":160000,
+		"keszlet":0,
+		"kepek":
+		{
+			"kep0":"lgkep5.png",
+			"kep1":"lgkep6.png",
+			"kep2":"lgkep7.png",
+			"kep3":"lgkep8.png"
+		},
+		"thumbnailek":
+		{
+			"thumbnail0":"lgkepthumb5.png",
+			"thumbnail1":"lgkepthumb6.png",
+			"thumbnail2":"lgkepthumb7.png",
+			"thumbnail3":"lgkepthumb8.png"
+		}
+	}
+]

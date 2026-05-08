@@ -1,0 +1,160 @@
+#termekNev
+{
+	padding-left: 10%;
+}
+.bentebbiDiv
+{
+	padding-left: 15%;
+	padding-right: 10%;
+}
+#balTabl
+{	
+	float: left;
+	width: 8%;
+	padding-left: 4%;
+}
+#nagyKep
+{
+	height: 30rem;
+	max-width: 34rem;
+	object-fit: contain;
+}
+#nagyKepCont
+{
+	text-align: center;
+}
+.thumbnail
+{
+    cursor: pointer;
+	max-width: 8rem;
+	height: 7rem;
+}
+#kozTabl
+{
+	min-width: 26rem;
+	margin-left: 18%;
+}
+#jobbTabl
+{
+	float: right;
+}
+.keptd
+{
+	text-align: center;
+}
+
+#nyilBal
+{
+	/*visibility: hidden;*/
+	border: 0;
+	background: url("/kepek/nyilBalra.png") no-repeat;
+	padding: 3.7%;
+	padding-bottom: 1%;
+	position: absolute;
+	left: 25%;
+	top: 36%;
+}
+
+#nyilJobb
+{
+	/*visibility: hidden;*/
+	border: 0;
+	background: url("/kepek/nyilJobbra.png") no-repeat;
+	padding: 3.7%;
+	padding-bottom: 1%;
+	position: absolute;
+	right: 40%;
+	top: 36%;
+}
+#nyilJobb:hover, #nyilBal:hover
+{
+	cursor: pointer;
+}
+
+#ar
+{
+	position: absolute;
+	left: 73%;
+	top: 22%;
+	color: red;
+	font-size: 2rem;
+}
+
+#btnKosarhoz
+{
+	background-color: lightgreen;
+	border: 0;
+	position: absolute;
+	top: 34%;
+	left: 67%;
+	font-size: 2rem;
+	padding: 4%;
+	border-radius: 50%;
+}
+
+#btnKosarhoz:hover
+{
+	background-color: lightblue;
+	cursor: pointer;
+}
+
+@media only screen and (max-width: 1200px) 
+{
+	#nagyKep
+	{
+		max-width: 28rem;
+	}
+	
+	.bentebbiDiv
+	{
+		padding-left: 4%;
+		padding-right: 5%;
+	}
+
+	#ar
+	{
+		position: absolute;
+		left: 77%;
+		top: 6%;
+	}
+
+	#btnKosarhoz
+	{
+		position: absolute;
+		top: 13%;
+		left: 67%;
+		font-size: 1.9rem;
+		font-weight: bold;
+		padding: 12% 5%;
+		border-radius: 45%;
+	}
+	
+	.balTabl
+	{
+		padding-left: 0%;
+	}
+	
+	#termekLeiras
+	{
+		font-size: 2rem;
+	}
+
+	#nyilBal
+	{
+		visibility: visible;
+		position: absolute;
+		left: 22%;
+		top: 28%;
+		background-size: cover;
+	}
+
+	#nyilJobb
+	{
+		min-width: 5rem;
+		visibility: visible;
+		position: absolute;
+		right: 35%;
+		top: 28%;
+		background-size: cover;
+	}
+}
